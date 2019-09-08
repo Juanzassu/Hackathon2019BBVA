@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'APIsBio' });
 });
 
-router.post('/NuevoBio', function(req,res,next){
+router.post('/Newbio', function(req,res,next){
 	//Crear objeto Mongo y hacer insert
 	var miBio = Bios({
 		id: req.body.id,
