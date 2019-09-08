@@ -28,7 +28,7 @@ router.post('/NuevoBio', function(req,res,next){
 		if (err){
 			console.log('error');
 		} else {
-			res.render('resultadoAlta', data);
+			res.render('NuevoBio', data);
 		}
 	});
 
